@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><b>Survey Form</b></h2>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete
+        some or all of the following survey for our marketing department. Answering any question is
+        optional, and all information will be kept strictly confidential. Thank you very much for your time!
+    </p>
+    <label for="name">What is your name?</label> <br>
+    <input type="text" maxlength="250"> <br> <br>
+    <label for="Title">What is your date of birth?</label> <br>
+    <label for="month">Month: </label>
+    <select name="month" id="Month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+    </select>
+    <label for="Date">Date: </label>
+    <select name="date" id="Date">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <label for="year">Year</label>
+    <select name="year" id="Year">
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+    </select> <br>
+    <label for="Title">What is your mailling address(if you would like to have a hard copy of our catalog sent to you)?</label>
+    <textarea name="infor" id="infor" cols="70" rows="4">Numbe/P.O. Box/Route:
+Street/Avenue/Road:
+City:
+State/Zip:
+    </textarea> <br> <br>
+    <label for="adrress">What is your email address?</label> <br>
+    <input type="text"> <br>
+    <label for="catalog">Have you viewed our online product catalog?</label> <br>
+    <input type="radio" name="yes" id="y"> <label for="yes">Yes</label>
+    <input type="radio" name="no" id="n"> <label for="no">No</label> <br>
+    <label for="KindOfProduct">If so, what product(s) besides the one you are ordering might you be interested in purchasing in the future? (Check air that apply)</label> <br>
+    <input type="checkbox" name="vcr" id="vcr"> <label for="vcr">VRC</label> <br>
+    <input type="checkbox" name="vcr" id="vcr"> <label for="vcr">Big Screen TV</label> <br>
+    <input type="checkbox" name="vcr" id="vcr"> <label for="vcr">Audio Equipment</label> <br>
+    <input type="checkbox" name="vcr" id="vcr"> <label for="vcr">Video Equipment</label> <br>
+    <input type="checkbox" name="vcr" id="vcr"> <label for="vcr">Camera Equipment</label> <br>
+    <input type="checkbox" name="other" id="other"> <label for="other">Other</label> <input type="text" placeholder="Please List"> <br>
+    <label for="question">Do you have any questions, comments or suggestions before proceeding to the Other Form?</label> <br>
+    <textarea name="" id="" cols="70" rows="5">
+Your Input:
+    </textarea> <br> <br>
+    <input type="submit" value="Send Form"> <input type="submit" value="Clear Form">
+    <br> <br>
+    <hr>
+    <label for="">Browser: </label>
+    <select name="" id="">
+        <option value="google" disabled>Google</option> <br>
+    </select> <br> <br>
+    <label for="Username">Username:</label>
+    <input type="text"> <br> <br>
+    <label for="Encryption">Encryption:</label>
+    <select name="" id="">
+        <option value="">2048 (High Grade)</option>
+    </select> <br> <br>
+    <label for="">0<input type="range">100</label> <br> <br>
+    <label for="">Birthday:</label> <input type="date"> <br> <br>
+    <label for="">Select your favorite color: </label>
+    <input type="color">  <br> <br>
+    <label for="">Select a week: </label>
+    <input type="month"> <br> <br>
+    <label for="">E-mail: </label>
+    <input type="text"> <br> <br>
+    <label for="">Search Google: </label>
+    <input type="text"> <br> <br>
+    <label for="">Telephone: </label>
+    <input type="tel"> <br> <br>
+    <label for="">Add your homepage: </label>
+    <input type="text"> <br> <br>
+    <input type="submit" value="submit">
+    <p><b>Note: </b> The datalist tag is not supported in Safari or IE9 (and aerlier)</p>
+</body>
+</html>

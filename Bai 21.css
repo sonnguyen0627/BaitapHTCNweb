@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    /*1519.2px*/
+    width: 100%;
+    height: 46.5px;
+    background-color: #626262;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #E5E5E5
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 46.5px;
+}
